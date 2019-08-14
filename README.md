@@ -2,11 +2,11 @@
 
 A bit of code that makes easy colour printing.
 
-##Syntax:
+## Syntax:
 ```python
 cprint("your message", "colour")
 ```
-###Examples:
+### Examples:
 ```python
 cprint("hi there", "teal")
 ```
