@@ -16,7 +16,7 @@ navy = RgbFg(0, 0, 128)
 crimson = RgbFg(175, 0, 42)
 orange = RgbFg(255, 165, 0)
 
-colours = {"black":black, white":white, "red":red, "green":green, "blue":blue, "grey":grey, "gray":grey, "aqua":aqua, "teal":teal, "yellow":yellow, "magenta":magenta, "pink":magenta, "maroon":maroon, "olive":olive, "navy":navy, "crimson":crimson, "orange":orange}
+colours = {"black":black, "white":white, "red":red, "green":green, "blue":blue, "grey":grey, "gray":grey, "aqua":aqua, "teal":teal, "yellow":yellow, "magenta":magenta, "pink":magenta, "maroon":maroon, "olive":olive, "navy":navy, "crimson":crimson, "orange":orange}
 
 def cprint(string="", icolour="white", iend="\n"):
   global colours
