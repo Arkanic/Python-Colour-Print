@@ -21,4 +21,4 @@ colours = {"black":black, "white":white, "red":red, "green":green, "blue":blue, 
 def cprint(string="", icolour="white", iend="\n"):
   global colours
   fg.set_style("x", colours[icolour])
-  print(fg.x + string + fg.rs, end="iend")
+  print(fg.x + string + fg.rs, end=iend)
